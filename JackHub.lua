@@ -53,15 +53,15 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 
 
 function Script()
-    local Window = Library.CreateLib("PS Hub Released", "No Description")
+    local Window = Library.CreateLib("Jack Hub Beta Kavo Ui", "No Description")
 
 
 
     local Main = Window:NewTab("Script Hub")
-    local MainSection = Main:NewSection("PS Sections")
+    local MainSection = Main:NewSection("Script Sections")
 
 
-    -- Script Hub
+    -- Sections
 
     MainSection:NewSlider("Walkspeed", "Changes how fast you walk.", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
